@@ -17,7 +17,6 @@ public class CafePayApp extends Application {
         this.primaryStage = primaryStage;
         primaryStage.setTitle("Welcome to CafePay KICT");
 
-        // Initialize data handlers
         userDataHandler = new UserDataHandler();
         userDataHandler.loadUsersFromFile("users.txt");
         authenticator = new Authenticator(userDataHandler.getEmployees());
@@ -27,7 +26,6 @@ public class CafePayApp extends Application {
         employeeListPanel = new EmployeeListPanel(this);
         employeeDetailsPanel = new EmployeeDetailsPanel(this);
 
-        // Show login scene
         showLoginScene();
     }
 
@@ -38,15 +36,12 @@ public class CafePayApp extends Application {
     public void showDashboard(Employee loggedInEmployee) {
         primaryStage.setTitle("CafePay Dashboard - " + loggedInEmployee.getName());
         
-        // Set up the dashboard with both panels
         employeeListPanel.setupForUser(loggedInEmployee);
         employeeDetailsPanel.setupForUser(loggedInEmployee);
         
-        // Show the combined dashboard
         employeeListPanel.showDashboard(primaryStage, employeeDetailsPanel);
     }
 
-    // Getters for panels to access shared resources
     public Authenticator getAuthenticator() {
         return authenticator;
     }
