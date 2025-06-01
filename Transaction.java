@@ -3,7 +3,7 @@ package com.example.cafepaykict;
 public class Transaction {
     private String transactionId;
     private String employeeId;
-    private String type;  // e.g., "sale", "refund"
+    private String type; 
     private double amount;
     private String description;
     private String date;
@@ -18,8 +18,6 @@ public class Transaction {
         this.date = date;
         this.status = status;
     }
-
-    // Getters & Setters below
 
     public String getTransactionId() {
         return transactionId;
