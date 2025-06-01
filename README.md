@@ -1,5 +1,5 @@
 # CafePay KICT - Payroll and Employee Management System
-
+![image](https://github.com/user-attachments/assets/2e21f48c-29d0-4508-999b-957267ca623b)
 
 ## 📌 Project Description  
 **CafePay** KICT is a comprehensive payroll and employee management system designed for small businesses, especially cafe environments. The system helps HR staff manage employee details, track attendance, and calculate wages, while also allowing employees to securely log in, clock in/out, and view their payroll information. 
