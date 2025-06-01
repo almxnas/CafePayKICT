@@ -10,17 +10,14 @@ public class TransactionDataHandler {
         this.transactions = new ArrayList<>();
     }
 
-    // Add a new transaction
     public void addTransaction(Transaction t) {
         transactions.add(t);
     }
 
-    // Get all transactions
     public ArrayList<Transaction> getTransactions() {
         return transactions;
     }
 
-    // Find a transaction by its ID
     public Transaction findTransactionById(String id) {
         for (Transaction t : transactions) {
             if (t.getTransactionId().equals(id)) {
@@ -30,7 +27,6 @@ public class TransactionDataHandler {
         return null;
     }
 
-    // Get transactions filtered by type (e.g., "sale", "refund")
     public ArrayList<Transaction> getTransactionsByType(String type) {
         ArrayList<Transaction> filtered = new ArrayList<>();
         for (Transaction t : transactions) {
@@ -41,7 +37,6 @@ public class TransactionDataHandler {
         return filtered;
     }
 
-    // Edit/update a transaction by ID
     public boolean updateTransaction(String id, Transaction updatedTransaction) {
         for (int i = 0; i < transactions.size(); i++) {
             if (transactions.get(i).getTransactionId().equals(id)) {
@@ -49,7 +44,7 @@ public class TransactionDataHandler {
                 return true;
             }
         }
-        return false; // transaction not found
+        return false; 
     
     }
 }
