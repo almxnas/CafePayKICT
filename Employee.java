@@ -89,7 +89,7 @@ public class Employee extends User {
         if ("weekly".equalsIgnoreCase(wageType)) {
             basePay = wage;
         } else if ("hourly".equalsIgnoreCase(wageType)) {
-            basePay = wage * 40;  // assuming 40 hours/week
+            basePay = wage * 40;  
         }
         double overtimePay = overtimeHours * overtimeRate;
         return basePay + overtimePay;
