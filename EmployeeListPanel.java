@@ -1,4 +1,3 @@
-// EmployeeListPanel.java (Corrected version)
 package com.example.cafepaykict;
 
 import javafx.geometry.Insets;
