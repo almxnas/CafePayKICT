@@ -46,3 +46,9 @@ It uses a clean JavaFX-based graphical user interface and stores employee data s
 - Java (JavaFX for GUI)
 - File I/O for data persistence
 - Object-Oriented Programming (OOP) principles
+
+## ✅ Branches Used
+
+- test
+- experiment
+- new-feature
