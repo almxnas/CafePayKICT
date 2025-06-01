@@ -36,9 +36,9 @@ It uses a clean JavaFX-based graphical user interface and stores employee data s
 
 ## 👩‍💻 Team Members
 
-1. Al Meerah Anas  
-2. Aribah Abdul Rahman  
-3. Sadia Ahmad  
+- Al Meerah Anas
+- Aribah Abdul Rahman
+- Sadia Ahmad  
 
 
 ## 🛠 Technologies Used
