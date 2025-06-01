@@ -30,7 +30,7 @@ public class UserDataHandler {
         }
         return null;
     }
-
+ 
     public void loadUsersFromFile(String filename) {
         employees.clear();
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
