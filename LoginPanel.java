@@ -32,7 +32,6 @@ public class LoginPanel {
         clearButton = new Button("Clear");
         loginMessage = new Label();
 
-        // Set event handlers
         loginButton.setOnAction(e -> handleLogin());
         clearButton.setOnAction(e -> clearLoginFields());
     }
