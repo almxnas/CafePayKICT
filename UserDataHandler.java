@@ -98,7 +98,6 @@ public class UserDataHandler {
         return false;
     }
 
-    // ✅ ADDED: Remove employee by ID
     public void removeEmployee(String empId) {
         employees.removeIf(e -> e.getEmployeeId().equals(empId));
     }
