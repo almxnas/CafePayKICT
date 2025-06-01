@@ -33,6 +33,10 @@ It uses a clean JavaFX-based graphical user interface and stores employee data s
 - Built with **JavaFX** for a responsive, intuitive design.
 - Separate dashboards for HR and Employees.
 
+  ## Output of the Project
+  ![WhatsApp Image 2025-06-01 at 20 15 58_069bbfb9](https://github.com/user-attachments/assets/2b5f92f8-2134-4ccd-8245-4a70532441b6)
+
+
 
 ## 👩‍💻 Team Members
 
