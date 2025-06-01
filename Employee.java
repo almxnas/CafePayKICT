@@ -6,7 +6,7 @@ import java.time.LocalTime;
 public class Employee extends User {
     private String employeeId;
     private String position;
-    private String wageType;  // "weekly" or "hourly"
+    private String wageType; 
     private double wage;
     private double overtimeHours;
     private double overtimeRate;
