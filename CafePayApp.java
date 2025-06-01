@@ -21,7 +21,6 @@ public class CafePayApp extends Application {
         userDataHandler.loadUsersFromFile("users.txt");
         authenticator = new Authenticator(userDataHandler.getEmployees());
 
-        // Initialize panels
         loginPanel = new LoginPanel(this);
         employeeListPanel = new EmployeeListPanel(this);
         employeeDetailsPanel = new EmployeeDetailsPanel(this);
